@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import App from './App';
+// import PostList from './PostList';
 
-import PostList from './PostList';
-
-ReactDOM.render(<PostList />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
